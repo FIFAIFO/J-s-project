@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     Vector2 move;
     private Rigidbody2D rigidbody2d;
     public int maxHealth = 5;
+    public int health { get { return currentHealth; }}
     int currentHealth;
     
     // Start is called before the first frame update
